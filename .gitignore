@@ -1,0 +1,26 @@
+# Local environment variables
+.env
+
+# Python caches and test output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Streamlit local configuration
+.streamlit/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+
+# Temporary files
+*.log
+*.tmp
