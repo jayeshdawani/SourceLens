@@ -4,6 +4,8 @@
 
 SourceLens is a Streamlit application for exploring multiple PDF documents through a conversational interface. It extracts readable text page by page, splits the text into overlapping passages, generates OpenAI embeddings, stores the vectors in a local in-memory NumPy index, retrieves the passages most relevant to a question, and displays the source document and page number beneath each answer.
 
+<img width="2048" height="1154" alt="image" src="https://github.com/user-attachments/assets/5461cf60-79b8-4abc-a0b9-e7ed4f1d4b0e" />
+
 ## Features
 
 - Upload and index multiple PDF files in one browser session.
@@ -15,8 +17,6 @@ SourceLens is a Streamlit application for exploring multiple PDF documents throu
 - Remove the active collection and clear its in-memory index.
 - Handle missing API keys, blank questions, damaged files, encrypted PDFs, blank pages, and image-only scans with clear messages.
 - Run automated tests without sending live OpenAI API requests.
-
-<img width="2048" height="1154" alt="image" src="https://github.com/user-attachments/assets/5461cf60-79b8-4abc-a0b9-e7ed4f1d4b0e" />
 
 ## Technology stack
 
